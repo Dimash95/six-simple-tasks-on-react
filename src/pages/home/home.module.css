@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 20px;
+  background-color: #7ec7b9;
+}
+
+.wrapper p {
+  font-size: 30px;
+}
+
+.wrapper ul li {
+  margin-top: 10px;
+  font-size: 20px;
+  list-style: disc;
+}

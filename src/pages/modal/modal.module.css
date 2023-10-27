@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 20px;
+  background-color: #7ec7b9;
+}
+
+.img {
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.4s;
+}
+
+.hidden {
+  position: absolute;
+  visibility: hidden;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.buttonClose {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 20px;
+  background-color: #7ec7b9;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.number {
+  font-size: 70px;
+}
+
+.buttonWrapper {
+  display: flex;
+  gap: 20px;
+}
